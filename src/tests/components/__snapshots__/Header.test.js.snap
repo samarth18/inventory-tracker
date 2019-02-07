@@ -19,85 +19,129 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h1>
-          Expensify
-</h1>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/dashboard"
+      "children": <div
+        className="content-container"
 >
-          Dashboard
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/create"
->
-          Create Expense
-</NavLink>,
-        <button
-          onClick={[Function]}
->
-          Logout
-</button>,
-      ],
+        <div
+                className="header__content"
+        >
+                <Link
+                        className="header__title"
+                        replace={false}
+                        to="/dashboard"
+                >
+                        <h1>
+                                Expensify
+                        </h1>
+                </Link>
+                <button
+                        className="button button--link"
+                        onClick={[Function]}
+                >
+                        Logout
+                </button>
+        </div>
+</div>,
+      "className": "header",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="header__content"
+>
+          <Link
+                    className="header__title"
+                    replace={false}
+                    to="/dashboard"
+          >
+                    <h1>
+                              Expensify
+                    </h1>
+          </Link>
+          <button
+                    className="button button--link"
+                    onClick={[Function]}
+          >
+                    Logout
+          </button>
+</div>,
+        "className": "content-container",
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Expensify",
+          "children": Array [
+            <Link
+              className="header__title"
+              replace={false}
+              to="/dashboard"
+>
+              <h1>
+                            Expensify
+              </h1>
+</Link>,
+            <button
+              className="button button--link"
+              onClick={[Function]}
+>
+              Logout
+</button>,
+          ],
+          "className": "header__content",
         },
         "ref": null,
-        "rendered": "Expensify",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <h1>
+                Expensify
+</h1>,
+              "className": "header__title",
+              "replace": false,
+              "to": "/dashboard",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Expensify",
+              },
+              "ref": null,
+              "rendered": "Expensify",
+              "type": "h1",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Logout",
+              "className": "button button--link",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Logout",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Dashboard",
-          "to": "/dashboard",
-        },
-        "ref": null,
-        "rendered": "Dashboard",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Create Expense",
-          "to": "/create",
-        },
-        "ref": null,
-        "rendered": "Create Expense",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Logout",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Logout",
-        "type": "button",
-      },
-    ],
+      "type": "div",
+    },
     "type": "header",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -106,85 +150,129 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <h1>
-            Expensify
-</h1>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/dashboard"
+        "children": <div
+          className="content-container"
 >
-            Dashboard
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/create"
->
-            Create Expense
-</NavLink>,
-          <button
-            onClick={[Function]}
->
-            Logout
-</button>,
-        ],
+          <div
+                    className="header__content"
+          >
+                    <Link
+                              className="header__title"
+                              replace={false}
+                              to="/dashboard"
+                    >
+                              <h1>
+                                        Expensify
+                              </h1>
+                    </Link>
+                    <button
+                              className="button button--link"
+                              onClick={[Function]}
+                    >
+                              Logout
+                    </button>
+          </div>
+</div>,
+        "className": "header",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="header__content"
+>
+            <Link
+                        className="header__title"
+                        replace={false}
+                        to="/dashboard"
+            >
+                        <h1>
+                                    Expensify
+                        </h1>
+            </Link>
+            <button
+                        className="button button--link"
+                        onClick={[Function]}
+            >
+                        Logout
+            </button>
+</div>,
+          "className": "content-container",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Expensify",
+            "children": Array [
+              <Link
+                className="header__title"
+                replace={false}
+                to="/dashboard"
+>
+                <h1>
+                                Expensify
+                </h1>
+</Link>,
+              <button
+                className="button button--link"
+                onClick={[Function]}
+>
+                Logout
+</button>,
+            ],
+            "className": "header__content",
           },
           "ref": null,
-          "rendered": "Expensify",
-          "type": "h1",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <h1>
+                  Expensify
+</h1>,
+                "className": "header__title",
+                "replace": false,
+                "to": "/dashboard",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Expensify",
+                },
+                "ref": null,
+                "rendered": "Expensify",
+                "type": "h1",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Logout",
+                "className": "button button--link",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Logout",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Dashboard",
-            "to": "/dashboard",
-          },
-          "ref": null,
-          "rendered": "Dashboard",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Create Expense",
-            "to": "/create",
-          },
-          "ref": null,
-          "rendered": "Create Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Logout",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Logout",
-          "type": "button",
-        },
-      ],
+        "type": "div",
+      },
       "type": "header",
     },
   ],
