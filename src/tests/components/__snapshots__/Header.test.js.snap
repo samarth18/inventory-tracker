@@ -26,8 +26,7 @@ ShallowWrapper {
         <NavLink
           activeClassName="is-active"
           ariaCurrent="true"
-          exact={true}
-          to="/"
+          to="/dashboard"
 >
           Dashboard
 </NavLink>,
@@ -66,8 +65,7 @@ ShallowWrapper {
           "activeClassName": "is-active",
           "ariaCurrent": "true",
           "children": "Dashboard",
-          "exact": true,
-          "to": "/",
+          "to": "/dashboard",
         },
         "ref": null,
         "rendered": "Dashboard",
@@ -115,8 +113,7 @@ ShallowWrapper {
           <NavLink
             activeClassName="is-active"
             ariaCurrent="true"
-            exact={true}
-            to="/"
+            to="/dashboard"
 >
             Dashboard
 </NavLink>,
@@ -155,8 +152,7 @@ ShallowWrapper {
             "activeClassName": "is-active",
             "ariaCurrent": "true",
             "children": "Dashboard",
-            "exact": true,
-            "to": "/",
+            "to": "/dashboard",
           },
           "ref": null,
           "rendered": "Dashboard",
