@@ -22,7 +22,7 @@
   flex-direction: column;
   padding: $s-size;
   text-decoration: none;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
   &:hover {
     background: $off-white;
   }
@@ -51,6 +51,7 @@
 
 .list-item__sub-title {
   color: $grey;
+  padding: 0.8rem 0;
   font-size: $font-size-small;
 }
 

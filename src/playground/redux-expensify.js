@@ -5,7 +5,7 @@ import uuid from "uuid";
 const addExpense = ({
   description = "",
   note = "",
-  amount = 0,
+  cost = 0,
   createdAt = 0
 } = {}) => ({
   type: "ADD_EXPENSE",
@@ -13,7 +13,7 @@ const addExpense = ({
     id: uuid(),
     description,
     note,
-    amount,
+    cost,
     createdAt
   }
 });
@@ -61,9 +61,9 @@ const setEndDate = endDate => ({
 
 // Expenses Reducer
 
-const expensesReducerDefaultState = [];
+const itemsReducerDefaultState = [];
 
-const expensesReducer = (state = expensesReducerDefaultState, action) => {
+const itemsReducer = (state = itemsReducerDefaultState, action) => {
   switch (action.type) {
     case "ADD_EXPENSE":
       return [...state, action.expense];
@@ -104,7 +104,7 @@ const filtersReducer = (state = filtersReducerDefaultState, action) => {
     case "SORT_BY_AMOUNT":
       return {
         ...state,
-        sortBy: "amount"
+        sortBy: "cost"
       };
     case "SORT_BY_DATE":
       return {
@@ -143,8 +143,8 @@ const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {
     .sort((a, b) => {
       if (sortBy === "date") {
         return a.createdAt < b.createdAt ? 1 : -1;
-      } else if (sortBy === "amount") {
-        return a.amount < b.amount ? 1 : -1;
+      } else if (sortBy === "cost") {
+        return a.cost < b.cost ? 1 : -1;
       }
     });
 };
@@ -153,7 +153,7 @@ const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {
 
 const store = createStore(
   combineReducers({
-    expenses: expensesReducer,
+    expenses: itemsReducer,
     filters: filtersReducer
   })
 );
@@ -165,14 +165,14 @@ store.subscribe(() => {
 });
 
 const expenseOne = store.dispatch(
-  addExpense({ description: "Rent", amount: 100, createdAt: -21000 })
+  addExpense({ description: "Rent", cost: 100, createdAt: -21000 })
 );
 const expenseTwo = store.dispatch(
-  addExpense({ description: "Coffee", amount: 300, createdAt: -1000 })
+  addExpense({ description: "Coffee", cost: 300, createdAt: -1000 })
 );
 
 // store.dispatch(removeExpense({ id: expenseOne.expense.id }));
-// store.dispatch(editExpense(expenseTwo.expense.id, { amount: 500 }));
+// store.dispatch(editExpense(expenseTwo.expense.id, { cost: 500 }));
 
 // store.dispatch(setTextFilter('ffe'));
 // store.dispatch(setTextFilter());
@@ -190,13 +190,13 @@ const demoState = {
       id: "poijasdfhwer",
       description: "January Rent",
       note: "This was the final payment for that address",
-      amount: 54500,
+      cost: 54500,
       createdAt: 0
     }
   ],
   filters: {
     text: "rent",
-    sortBy: "amount", // date or amount
+    sortBy: "cost", // date or cost
     startDate: undefined,
     endDate: undefined
   }

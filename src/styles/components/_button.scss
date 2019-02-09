@@ -1,5 +1,5 @@
 .button {
-  background: $blue;
+  background: black;
   border: none;
   color: white;
   display: inline-block;
@@ -8,6 +8,34 @@
   line-height: 1;
   padding: $s-size;
   text-decoration: none;
+  font-family: "Lato", sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .button--link {
@@ -15,5 +43,6 @@
 }
 
 .button--secondary {
-  background: #888;
+  background: #0f629c;
+  font-family: "Lato", sans-serif;
 }

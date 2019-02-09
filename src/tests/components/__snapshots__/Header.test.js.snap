@@ -31,7 +31,7 @@ ShallowWrapper {
                         to="/dashboard"
                 >
                         <h1>
-                                Expensify
+                                Keeper
                         </h1>
                 </Link>
                 <button
@@ -59,7 +59,7 @@ ShallowWrapper {
                     to="/dashboard"
           >
                     <h1>
-                              Expensify
+                              Keeper
                     </h1>
           </Link>
           <button
@@ -84,7 +84,7 @@ ShallowWrapper {
               to="/dashboard"
 >
               <h1>
-                            Expensify
+                            Keeper
               </h1>
 </Link>,
             <button
@@ -104,7 +104,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": <h1>
-                Expensify
+                Keeper
 </h1>,
               "className": "header__title",
               "replace": false,
@@ -116,10 +116,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Expensify",
+                "children": "Keeper",
               },
               "ref": null,
-              "rendered": "Expensify",
+              "rendered": "Keeper",
               "type": "h1",
             },
             "type": [Function],
@@ -162,7 +162,7 @@ ShallowWrapper {
                               to="/dashboard"
                     >
                               <h1>
-                                        Expensify
+                                        Keeper
                               </h1>
                     </Link>
                     <button
@@ -190,7 +190,7 @@ ShallowWrapper {
                         to="/dashboard"
             >
                         <h1>
-                                    Expensify
+                                    Keeper
                         </h1>
             </Link>
             <button
@@ -215,7 +215,7 @@ ShallowWrapper {
                 to="/dashboard"
 >
                 <h1>
-                                Expensify
+                                Keeper
                 </h1>
 </Link>,
               <button
@@ -235,7 +235,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": <h1>
-                  Expensify
+                  Keeper
 </h1>,
                 "className": "header__title",
                 "replace": false,
@@ -247,10 +247,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Expensify",
+                  "children": "Keeper",
                 },
                 "ref": null,
-                "rendered": "Expensify",
+                "rendered": "Keeper",
                 "type": "h1",
               },
               "type": [Function],

@@ -23,10 +23,10 @@ ShallowWrapper {
         <h1
                 className="box-layout__title"
         >
-                Expensify
+                Keeper
         </h1>
         <p>
-                It's time to get your expenses under control.
+                Track your items with ease!
         </p>
         <button
                 className="button"
@@ -47,10 +47,10 @@ ShallowWrapper {
           <h1
             className="box-layout__title"
 >
-            Expensify
+            Keeper
 </h1>,
           <p>
-            It's time to get your expenses under control.
+            Track your items with ease!
 </p>,
           <button
             className="button"
@@ -68,11 +68,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Expensify",
+            "children": "Keeper",
             "className": "box-layout__title",
           },
           "ref": null,
-          "rendered": "Expensify",
+          "rendered": "Keeper",
           "type": "h1",
         },
         Object {
@@ -80,10 +80,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "It's time to get your expenses under control.",
+            "children": "Track your items with ease!",
           },
           "ref": null,
-          "rendered": "It's time to get your expenses under control.",
+          "rendered": "Track your items with ease!",
           "type": "p",
         },
         Object {
@@ -116,10 +116,10 @@ ShallowWrapper {
           <h1
                     className="box-layout__title"
           >
-                    Expensify
+                    Keeper
           </h1>
           <p>
-                    It's time to get your expenses under control.
+                    Track your items with ease!
           </p>
           <button
                     className="button"
@@ -140,10 +140,10 @@ ShallowWrapper {
             <h1
               className="box-layout__title"
 >
-              Expensify
+              Keeper
 </h1>,
             <p>
-              It's time to get your expenses under control.
+              Track your items with ease!
 </p>,
             <button
               className="button"
@@ -161,11 +161,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Expensify",
+              "children": "Keeper",
               "className": "box-layout__title",
             },
             "ref": null,
-            "rendered": "Expensify",
+            "rendered": "Keeper",
             "type": "h1",
           },
           Object {
@@ -173,10 +173,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "It's time to get your expenses under control.",
+              "children": "Track your items with ease!",
             },
             "ref": null,
-            "rendered": "It's time to get your expenses under control.",
+            "rendered": "Track your items with ease!",
             "type": "p",
           },
           Object {

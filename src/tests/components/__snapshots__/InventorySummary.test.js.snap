@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render InventorySummary with 1 item 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InventorySummary
+    itemCount={1}
+    itemsTotal={235}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="content-container"
+>
+        <h1
+                className="page-header__title"
+        >
+                Displaying 
+                <span>
+                        1
+                </span>
+                 
+                item
+                 with a total of
+                 
+                <span>
+                        $235.00
+                </span>
+        </h1>
+        <div
+                className="page-header__actions"
+        >
+                <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                >
+                        <span>
+                                Add Item
+                        </span>
+                </Link>
+        </div>
+</div>,
+      "className": "page-header",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="page-header__title"
+>
+            Displaying 
+            <span>
+                        1
+            </span>
+             
+            item
+             with a total of
+             
+            <span>
+                        $235.00
+            </span>
+</h1>,
+          <div
+            className="page-header__actions"
+>
+            <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+            >
+                        <span>
+                                    Add Item
+                        </span>
+            </Link>
+</div>,
+        ],
+        "className": "content-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Displaying ",
+              <span>
+                1
+</span>,
+              " ",
+              "item",
+              " with a total of",
+              " ",
+              <span>
+                $235.00
+</span>,
+            ],
+            "className": "page-header__title",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Displaying ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 1,
+              },
+              "ref": null,
+              "rendered": 1,
+              "type": "span",
+            },
+            " ",
+            "item",
+            " with a total of",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "$235.00",
+              },
+              "ref": null,
+              "rendered": "$235.00",
+              "type": "span",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              className="button"
+              replace={false}
+              to="/create"
+>
+              <span>
+                            Add Item
+              </span>
+</Link>,
+            "className": "page-header__actions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <span>
+                Add Item
+</span>,
+              "className": "button",
+              "replace": false,
+              "to": "/create",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Item",
+              },
+              "ref": null,
+              "rendered": "Add Item",
+              "type": "span",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="content-container"
+>
+          <h1
+                    className="page-header__title"
+          >
+                    Displaying 
+                    <span>
+                              1
+                    </span>
+                     
+                    item
+                     with a total of
+                     
+                    <span>
+                              $235.00
+                    </span>
+          </h1>
+          <div
+                    className="page-header__actions"
+          >
+                    <Link
+                              className="button"
+                              replace={false}
+                              to="/create"
+                    >
+                              <span>
+                                        Add Item
+                              </span>
+                    </Link>
+          </div>
+</div>,
+        "className": "page-header",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="page-header__title"
+>
+              Displaying 
+              <span>
+                            1
+              </span>
+               
+              item
+               with a total of
+               
+              <span>
+                            $235.00
+              </span>
+</h1>,
+            <div
+              className="page-header__actions"
+>
+              <Link
+                            className="button"
+                            replace={false}
+                            to="/create"
+              >
+                            <span>
+                                          Add Item
+                            </span>
+              </Link>
+</div>,
+          ],
+          "className": "content-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Displaying ",
+                <span>
+                  1
+</span>,
+                " ",
+                "item",
+                " with a total of",
+                " ",
+                <span>
+                  $235.00
+</span>,
+              ],
+              "className": "page-header__title",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Displaying ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1,
+                },
+                "ref": null,
+                "rendered": 1,
+                "type": "span",
+              },
+              " ",
+              "item",
+              " with a total of",
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$235.00",
+                },
+                "ref": null,
+                "rendered": "$235.00",
+                "type": "span",
+              },
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="button"
+                replace={false}
+                to="/create"
+>
+                <span>
+                                Add Item
+                </span>
+</Link>,
+              "className": "page-header__actions",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <span>
+                  Add Item
+</span>,
+                "className": "button",
+                "replace": false,
+                "to": "/create",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add Item",
+                },
+                "ref": null,
+                "rendered": "Add Item",
+                "type": "span",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should correctly render InventorySummary with multiple items 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InventorySummary
+    itemCount={23}
+    itemsTotal={23512340987}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="content-container"
+>
+        <h1
+                className="page-header__title"
+        >
+                Displaying 
+                <span>
+                        23
+                </span>
+                 
+                items
+                 with a total of
+                 
+                <span>
+                        $23,512,340,987.00
+                </span>
+        </h1>
+        <div
+                className="page-header__actions"
+        >
+                <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+                >
+                        <span>
+                                Add Item
+                        </span>
+                </Link>
+        </div>
+</div>,
+      "className": "page-header",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="page-header__title"
+>
+            Displaying 
+            <span>
+                        23
+            </span>
+             
+            items
+             with a total of
+             
+            <span>
+                        $23,512,340,987.00
+            </span>
+</h1>,
+          <div
+            className="page-header__actions"
+>
+            <Link
+                        className="button"
+                        replace={false}
+                        to="/create"
+            >
+                        <span>
+                                    Add Item
+                        </span>
+            </Link>
+</div>,
+        ],
+        "className": "content-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Displaying ",
+              <span>
+                23
+</span>,
+              " ",
+              "items",
+              " with a total of",
+              " ",
+              <span>
+                $23,512,340,987.00
+</span>,
+            ],
+            "className": "page-header__title",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Displaying ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 23,
+              },
+              "ref": null,
+              "rendered": 23,
+              "type": "span",
+            },
+            " ",
+            "items",
+            " with a total of",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "$23,512,340,987.00",
+              },
+              "ref": null,
+              "rendered": "$23,512,340,987.00",
+              "type": "span",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              className="button"
+              replace={false}
+              to="/create"
+>
+              <span>
+                            Add Item
+              </span>
+</Link>,
+            "className": "page-header__actions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <span>
+                Add Item
+</span>,
+              "className": "button",
+              "replace": false,
+              "to": "/create",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Item",
+              },
+              "ref": null,
+              "rendered": "Add Item",
+              "type": "span",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="content-container"
+>
+          <h1
+                    className="page-header__title"
+          >
+                    Displaying 
+                    <span>
+                              23
+                    </span>
+                     
+                    items
+                     with a total of
+                     
+                    <span>
+                              $23,512,340,987.00
+                    </span>
+          </h1>
+          <div
+                    className="page-header__actions"
+          >
+                    <Link
+                              className="button"
+                              replace={false}
+                              to="/create"
+                    >
+                              <span>
+                                        Add Item
+                              </span>
+                    </Link>
+          </div>
+</div>,
+        "className": "page-header",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="page-header__title"
+>
+              Displaying 
+              <span>
+                            23
+              </span>
+               
+              items
+               with a total of
+               
+              <span>
+                            $23,512,340,987.00
+              </span>
+</h1>,
+            <div
+              className="page-header__actions"
+>
+              <Link
+                            className="button"
+                            replace={false}
+                            to="/create"
+              >
+                            <span>
+                                          Add Item
+                            </span>
+              </Link>
+</div>,
+          ],
+          "className": "content-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Displaying ",
+                <span>
+                  23
+</span>,
+                " ",
+                "items",
+                " with a total of",
+                " ",
+                <span>
+                  $23,512,340,987.00
+</span>,
+              ],
+              "className": "page-header__title",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Displaying ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 23,
+                },
+                "ref": null,
+                "rendered": 23,
+                "type": "span",
+              },
+              " ",
+              "items",
+              " with a total of",
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$23,512,340,987.00",
+                },
+                "ref": null,
+                "rendered": "$23,512,340,987.00",
+                "type": "span",
+              },
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="button"
+                replace={false}
+                to="/create"
+>
+                <span>
+                                Add Item
+                </span>
+</Link>,
+              "className": "page-header__actions",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <span>
+                  Add Item
+</span>,
+                "className": "button",
+                "replace": false,
+                "to": "/create",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add Item",
+                },
+                "ref": null,
+                "rendered": "Add Item",
+                "type": "span",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

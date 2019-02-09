@@ -6,6 +6,15 @@
   padding: $s-size;
 }
 
+.text-input:focus {
+  outline: none;
+  border: 1px solid #f36156;
+  box-shadow: 0 0 10px #cacccd;
+}
+.text-input:hover {
+  visibility: visible;
+  cursor: pointer;
+}
 .select {
   @extend .text-input;
 }
